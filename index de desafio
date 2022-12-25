@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="stilos.css">
+    <script type="text/javascript" src="scriptooo.js" ></script>
+    <title>Cifrado</title>
+</head>
+<body>
+    <div class="heading">
+        <h1 data-text="CIFRADO">CIFRADO <Span data-Span="No te preocupes, siempre hay una forma de descifrarlo'">No te preocupes, siempre hay
+             una forma de descifrarlo'".</Span> </h1>
+    </div>
+
+    <input type="text" id="textoEncriptado">
+
+    <textarea name="resultado" id="textoDesencriptado" cols="30"
+     rows="10"></textarea>
+
+    <button type="button" id="botonEncriptado" data-text="Encriptar">Encriptar</button>
+    <button type="button" id="botonDesencriptado">Desencriptar</button>
+    <button type="button" id="botonCopiar">Copiar</button>
+
+</body>
+<script>
+    var btn = document.querySelector("#botonEncriptado");
+    btn.onclick = encriptar;
+    var btn2 = document.querySelector("#botonDesencriptado");
+    btn2.onclick = desencriptar;
+    var btn3 = document.querySelector("#botonCopiar");
+    btn3.onclick = copiar;
+</script>
+</html>
+<!--Este código es una página HTML que contiene una serie de elementos de entrada y salida de datos, así como tres botones. Los elementos de entrada incluyen un campo de texto y un área de texto, mientras que el único elemento de salida es el área de texto. Los tres botones tienen etiquetas de identificación "botonEncriptado", "botonDesencriptado" y "botonCopiar", respectivamente.
+
+El código también incluye una etiqueta de enlace a un archivo CSS externo llamado "stilos.css" y una etiqueta de script que incluye un archivo JavaScript externo llamado "scriptooo.js".
+
+Por último, el código contiene un bloque de script que asigna funciones a cada uno de los botones. Cuando se hace clic en el primer botón, se ejecuta la función "encriptar", cuando se hace clic en el segundo botón, se ejecuta la función "desencriptar", y cuando se hace clic en el tercer botón, se ejecuta la función "Copiar".-->
